@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Thabetrighi\\Zoom\\": "src"
+            "MacsiDigital\\Zoom\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Thabetrighi\\Zoom\\Tests\\": "tests"
+            "MacsiDigital\\Zoom\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Thabetrighi\\Zoom\\Providers\\ZoomServiceProvider"
+                "MacsiDigital\\Zoom\\Providers\\ZoomServiceProvider"
             ],
             "aliases": {
-                "Zoom": "Thabetrighi\\Zoom\\Facades\\Zoom"
+                "Zoom": "MacsiDigital\\Zoom\\Facades\\Zoom"
             }
         }
     },
