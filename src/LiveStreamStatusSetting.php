@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Resource;
+use Thabetrighi\Zoom\Support\Resource;
 
 class LiveStreamStatusSetting extends Resource
 {

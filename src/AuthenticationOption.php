@@ -1,11 +1,11 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class AuthenticationOption extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAuthenticationOption';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAuthenticationOption';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreAuthenticationOption';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateAuthenticationOption';
 }

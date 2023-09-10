@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class Panelist extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePanelist';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StorePanelist';
 
     protected $endPoint = 'webinars/{webinar:id}/panelists';
 

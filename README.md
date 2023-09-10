@@ -51,7 +51,7 @@ For versioning:-
 Publish the configuration file
 
 ```bash
-php artisan vendor:publish --provider="MacsiDigital\Zoom\Providers\ZoomServiceProvider"
+php artisan vendor:publish --provider="Thabetrighi\Zoom\Providers\ZoomServiceProvider"
 ```
 
 This will create a zoom.php config file within your config directory:-
@@ -110,14 +110,14 @@ There are 2 main ways to work with models, to call them directly from the access
 
     //or
     
-    $zoom = new \MacsiDigital\Zoom\Support\Entry;
-    $user = new \MacsiDigital\Zoom\User($zoom);
+    $zoom = new \Thabetrighi\Zoom\Support\Entry;
+    $user = new \Thabetrighi\Zoom\User($zoom);
 ```
 
 ### Custom settings
-If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \MacsiDigital\Zoom\Support\Entry as shown below.
+If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \Thabetrighi\Zoom\Support\Entry as shown below.
 ``` php
-    $zoom = new \MacsiDigital\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
+    $zoom = new \Thabetrighi\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
 ```
 
 ### Working with models

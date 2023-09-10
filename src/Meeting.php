@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class Meeting extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreMeeting';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateMeeting';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreMeeting';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateMeeting';
 
     protected $endPoint = 'meetings';
 

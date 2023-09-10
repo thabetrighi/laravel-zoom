@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class WebinarRegistrant extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRegistrant';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreRegistrant';
 
     protected $endPoint = 'webinars/{webinar:id}/registrants';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Facades;
+namespace Thabetrighi\Zoom\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

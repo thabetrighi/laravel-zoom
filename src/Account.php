@@ -1,14 +1,14 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class Account extends Model
 {
     // API included but its not open to the majority of API Users
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAccount';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAccount';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreAccount';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateAccount';
     
     protected $endPoint = 'accounts';
 

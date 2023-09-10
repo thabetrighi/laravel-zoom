@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Requests;
+namespace Thabetrighi\Zoom\Requests;
 
 use MacsiDigital\API\Support\PersistResource;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
 use MacsiDigital\API\Support\Resource;
 

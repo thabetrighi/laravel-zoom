@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class Role extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRole';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateRole';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreRole';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateRole';
     
     protected $endPoint = 'roles';
 

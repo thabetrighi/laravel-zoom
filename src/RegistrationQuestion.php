@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class RegistrationQuestion extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\UpdateRegistrationQuestion';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\UpdateRegistrationQuestion';
 
     protected $endPoint = 'meetings/{meeting:id}/registrants/questions';
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class WebinarOccurrence extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateOccurrence';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateOccurrence';
 
     protected $endPoint = 'webinars/{webinar:id}';
 

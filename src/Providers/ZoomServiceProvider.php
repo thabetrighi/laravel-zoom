@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Providers;
+namespace Thabetrighi\Zoom\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,9 +31,9 @@ class ZoomServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'zoom');
 
         // Register the main class to use with the facade
-        $this->app->singleton('zoom', 'MacsiDigital\Zoom\Contracts\Zoom');
-        $this->app->bind('MacsiDigital\Zoom\Contracts\Zoom', 'MacsiDigital\Zoom\Support\Entry');
+        $this->app->singleton('zoom', 'Thabetrighi\Zoom\Contracts\Zoom');
+        $this->app->bind('Thabetrighi\Zoom\Contracts\Zoom', 'Thabetrighi\Zoom\Support\Entry');
 
-        $this->app->bind('zoom.client', 'MacsiDigital\Zoom\Support\Client');
+        $this->app->bind('zoom.client', 'Thabetrighi\Zoom\Support\Client');
     }
 }

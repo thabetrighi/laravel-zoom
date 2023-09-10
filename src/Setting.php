@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Support\Model;
 
 class Setting extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateSetting';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateSetting';
 
     protected $customEndPoints = [
         'get' => 'users/{user:id}/settings',

@@ -1,16 +1,16 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace Thabetrighi\Zoom;
 
 use Illuminate\Support\Facades\Validator;
-use MacsiDigital\Zoom\Exceptions\FileTooLargeException;
-use MacsiDigital\Zoom\Exceptions\ValidationException;
-use MacsiDigital\Zoom\Support\Model;
+use Thabetrighi\Zoom\Exceptions\FileTooLargeException;
+use Thabetrighi\Zoom\Exceptions\ValidationException;
+use Thabetrighi\Zoom\Support\Model;
 
 class User extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreUser';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateUser';
+    protected $insertResource = 'Thabetrighi\Zoom\Requests\StoreUser';
+    protected $updateResource = 'Thabetrighi\Zoom\Requests\UpdateUser';
 
     protected $attributes = [
         'action' => 'create',

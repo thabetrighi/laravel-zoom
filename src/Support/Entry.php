@@ -1,15 +1,15 @@
 <?php
 
-namespace MacsiDigital\Zoom\Support;
+namespace Thabetrighi\Zoom\Support;
 
 use MacsiDigital\API\Support\Entry as ApiEntry;
 use MacsiDigital\OAuth2\Providers\OAuth2ServiceProvider;
-use MacsiDigital\Zoom\Facades\Client;
+use Thabetrighi\Zoom\Facades\Client;
 
 
 class Entry extends ApiEntry
 {
-    protected $modelNamespace = '\MacsiDigital\Zoom\\';
+    protected $modelNamespace = '\Thabetrighi\Zoom\\';
 
     protected $pageField = 'page_number';
 
